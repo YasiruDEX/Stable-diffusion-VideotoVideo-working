@@ -33,6 +33,6 @@ def video_to_png(video_path, output_folder):
 
 # Example usage
 video_path = "video.mp4"
-output_folder = "video_to_img_output/folder"
+output_folder = "video_to_img_output"
 
 video_to_png(video_path, output_folder)

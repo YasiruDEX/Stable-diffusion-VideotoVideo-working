@@ -12,7 +12,7 @@ os.makedirs(output_directory, exist_ok=True)
 video_frames_folder = "video_to_img_output"
 
 # Define the prompt
-prompt = "butterfly, realism, epic lighting, sky"
+prompt = "beautiful city, trees, realism, epic lighting, sky"
 
 # Read and process each image in the folder
 for filename in os.listdir(video_frames_folder):
@@ -25,7 +25,7 @@ for filename in os.listdir(video_frames_folder):
         payload = {
             "negative_prompt": "(((deformed face))),(side view:1.2), worst quality, low quality, low res, blurry, text, watermark, logo, banner, extra digits, cropped, jpeg artifacts, error, sketch ,duplicate, monochrome, geometry, mutation, fused face, cloned face",
             "prompt": prompt,
-            "steps": 10,
+            "steps": 20,
             "width": 512,
             "height": 512,
             "seed": seed,
